@@ -1,5 +1,5 @@
 {
-  "name": "food-festival",
+  "name": "module-19-project",
   "version": "1.0.0",
   "description": "",
   "main": "assets/js/script.js",
@@ -9,29 +9,22 @@
     "start:dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cory-hall/food-festival.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cory-hall/food-festival/issues"
-  },
-  "homepage": "https://github.com/cory-hall/food-festival#readme",
   "devDependencies": {
-    "file-loader": "6.2.0",
-    "webpack": "5.37.1",
-    "webpack-bundle-analyzer": "4.4.2",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^3.11.3",
-    "webpack-pwa-manifest": "4.3.0"
+    "@webpack-cli/serve": "^1.4.0",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "webpack": "^5.37.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "bootstrap": "4.3.1",
-    "image-webpack-loader": "^8.1.0",
-    "jquery": "3.6.0",
-    "popper.js": "1.16.0"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "webpack-pwa-manifest": "^4.1.1"
   }
 }
